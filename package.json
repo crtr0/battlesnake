@@ -1,7 +1,7 @@
 {
-  "name": "begin-app",
+  "name": "battlesnake",
   "version": "0.0.0",
-  "description": "Begin basic Hello World! app for Node",
+  "description": "Battlesnake app",
   "arc": {
     "app": "hello-world",
     "http": [
@@ -14,9 +14,10 @@
     ]
   },
   "scripts": {
-    "start": "cross-env NODE_ENV=testing npx sandbox"
+    "start": "NODE_ENV=testing npx sandbox"
   },
   "devDependencies": {
+    "@architect/architect": "^9.2.1",
     "@architect/functions": "latest",
     "@architect/sandbox": "^4.0.2",
     "@begin/data": "latest",
